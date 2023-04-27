@@ -36,9 +36,7 @@ customer.toppings = ["chocolate sprinkles", "wafer straws", "gummy bears"];
 customer.futureFlavors = ["mango"];
 customer.todaysPurchaseCost = 5.32;
 
-//printing out the keys in customer object
-for(let key in customer){
-    console.log(key);
-}
+//printing out the keys in customer object as an array
+console.log(Object.keys(customer));
 
 
