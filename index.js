@@ -1,3 +1,4 @@
+//Block 15 homework
 //original customer object
 let customer = {
     firstName: "jake",
